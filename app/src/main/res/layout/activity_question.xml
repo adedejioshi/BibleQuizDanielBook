@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gsa.biblequizdanielbook.Question">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#a2ff37fc"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/welcome"
+                style="@style/welcome"
+                android:layout_marginTop="8dp"
+                android:text="Welcome, Answer all Question"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                style="@style/QuestionTheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFEFFFF"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q1"
+                    style="@style/QuestionTheme1"
+                    android:layout_margin="8dp"
+                    android:text="1. Which king dreamt of a large statue of a man made from different metals?" />
+
+                <RadioButton
+                    android:id="@+id/Q1a"
+                    style="@style/QuestionTheme1"
+                    android:text="Nebuchadnezzar" />
+
+                <RadioButton
+                    android:id="@+id/Q1b"
+                    style="@style/QuestionTheme1"
+                    android:text="Cyrus" />
+
+                <RadioButton
+                    android:id="@+id/Q1c"
+                    style="@style/QuestionTheme1"
+                    android:text="Darius" />
+
+                <RadioButton
+                    android:id="@+id/Q1d"
+                    style="@style/QuestionTheme1"
+                    android:text="Belshazzar" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a2ff37fc"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q2"
+                    style="@style/QuestionTheme2"
+                    android:layout_margin="8dp"
+                    android:text="2. What happened to the statue made from different metals?" />
+
+                <RadioButton
+                    android:id="@+id/Q2a"
+                    style="@style/QuestionTheme2"
+                    android:text="It toppled over and the head and hands fell off" />
+
+                <RadioButton
+                    android:id="@+id/Q2b"
+                    style="@style/QuestionTheme2"
+                    android:text="It came to life and walked the earth" />
+
+                <RadioButton
+                    android:id="@+id/Q2c"
+                    style="@style/QuestionTheme2"
+                    android:text="A stone hit the feet and broke them into pieces " />
+
+                <RadioButton
+                    android:id="@+id/Q2d"
+                    style="@style/QuestionTheme2"
+                    android:text="A man with a scythe came and chopped it down" />
+            </RadioGroup>
+
+            <RadioGroup
+                style="@style/QuestionTheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFEFFFF"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q3"
+                    style="@style/QuestionTheme1"
+                    android:layout_margin="8dp"
+                    android:text="3. What did the different metals of the statue represent?" />
+
+                <RadioButton
+                    android:id="@+id/Q3a"
+                    style="@style/QuestionTheme1"
+                    android:text="People" />
+
+                <RadioButton
+                    android:id="@+id/Q3b"
+                    style="@style/QuestionTheme1"
+                    android:text="Regions of Babylon" />
+
+                <RadioButton
+                    android:id="@+id/Q3c"
+                    style="@style/QuestionTheme1"
+                    android:text="Babylonian artifacts" />
+
+                <RadioButton
+                    android:id="@+id/Q3d"
+                    style="@style/QuestionTheme1"
+                    android:text="Kingdoms of the world " />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a2ff37fc"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q4"
+                    style="@style/QuestionTheme2"
+                    android:layout_margin="8dp"
+                    android:text="4. Why were Daniel's three friends thrown into the fiery furnace?" />
+
+                <RadioButton
+                    android:id="@+id/Q4a"
+                    style="@style/QuestionTheme2"
+                    android:text="They wouldn't bow down to Nebuchadnezzar's golden image " />
+
+                <RadioButton
+                    android:id="@+id/Q4b"
+                    style="@style/QuestionTheme2"
+                    android:text="They continued to pray to their own God" />
+
+                <RadioButton
+                    android:id="@+id/Q4c"
+                    style="@style/QuestionTheme2"
+                    android:text="They could not interpret the king's dreams" />
+
+                <RadioButton
+                    android:id="@+id/Q4d"
+                    style="@style/QuestionTheme2"
+                    android:text="They would not eat the king's meat" />
+            </RadioGroup>
+
+            <RadioGroup
+                style="@style/QuestionTheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFEFFFF"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q5"
+                    style="@style/QuestionTheme1"
+                    android:layout_margin="8dp"
+                    android:text="5. What happened to King Nebuchadnezzar?" />
+
+                <RadioButton
+                    android:id="@+id/Q5a"
+                    style="@style/QuestionTheme1"
+                    android:text="He was assassinated by a servant" />
+
+                <RadioButton
+                    android:id="@+id/Q5b"
+                    style="@style/QuestionTheme1"
+                    android:text="He was killed in a fierce battle" />
+
+                <RadioButton
+                    android:id="@+id/Q5c"
+                    style="@style/QuestionTheme1"
+                    android:text="He went mad and lived as a beast before being restored as king " />
+
+                <RadioButton
+                    android:id="@+id/Q5d"
+                    style="@style/QuestionTheme1"
+                    android:text="He handed over the kingdom to his son who later had him murdered" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a2ff37fc"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q6"
+                    style="@style/QuestionTheme2"
+                    android:layout_margin="8dp"
+                    android:text="6. What did the writing on the wall 'Mene, Mene, Tekel, Upharsin' mean?" />
+
+                <RadioButton
+                    android:id="@+id/Q6a"
+                    style="@style/QuestionTheme2"
+                    android:text="God has given your kingdom to the Medes and Persians " />
+
+                <RadioButton
+                    android:id="@+id/Q6b"
+                    style="@style/QuestionTheme2"
+                    android:text="You will have a long and happy reign" />
+
+                <RadioButton
+                    android:id="@+id/Q6c"
+                    style="@style/QuestionTheme2"
+                    android:text="You must stop worshipping the Babylonian idols" />
+
+                <RadioButton
+                    android:id="@+id/Q6d"
+                    style="@style/QuestionTheme2"
+                    android:text="You will have a son who must be dedicated to the God of Israel" />
+            </RadioGroup>
+
+            <RadioGroup
+                style="@style/QuestionTheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFEFFFF"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q7"
+                    style="@style/QuestionTheme1"
+                    android:layout_margin="8dp"
+                    android:text="7. What happened to the lions in the den?" />
+
+                <RadioButton
+                    android:id="@+id/Q7a"
+                    style="@style/QuestionTheme1"
+                    android:text="They fought with each other" />
+
+                <RadioButton
+                    android:id="@+id/Q7b"
+                    style="@style/QuestionTheme1"
+                    android:text="They ate everyone who was thrown into the den" />
+
+                <RadioButton
+                    android:id="@+id/Q7c"
+                    style="@style/QuestionTheme1"
+                    android:text="They went to sleep" />
+
+                <RadioButton
+                    android:id="@+id/Q7d"
+                    style="@style/QuestionTheme1"
+                    android:text="An angel shut their mouths " />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a2ff37fc"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q8"
+                    style="@style/QuestionTheme2"
+                    android:layout_margin="8dp"
+                    android:text="8. Who did Daniel see sitting in a throne in his vision?" />
+
+                <RadioButton
+                    android:id="@+id/Q8a"
+                    style="@style/QuestionTheme2"
+                    android:text="An Angel" />
+
+                <RadioButton
+                    android:id="@+id/Q8b"
+                    style="@style/QuestionTheme2"
+                    android:text="The Ancient of Days " />
+
+                <RadioButton
+                    android:id="@+id/Q8c"
+                    style="@style/QuestionTheme2"
+                    android:text="King Darius" />
+
+                <RadioButton
+                    android:id="@+id/Q8d"
+                    style="@style/QuestionTheme2"
+                    android:text="The Lamb of God" />
+            </RadioGroup>
+
+            <RadioGroup
+                style="@style/QuestionTheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFEFFFF"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q9"
+                    style="@style/QuestionTheme1"
+                    android:layout_margin="8dp"
+                    android:text="9. How many horns did the ram in Daniel's vision have?" />
+
+                <RadioButton
+                    android:id="@+id/Q9a"
+                    style="@style/QuestionTheme1"
+                    android:text="One (1)" />
+
+                <RadioButton
+                    android:id="@+id/Q9b"
+                    style="@style/QuestionTheme1"
+                    android:text="Two (2)" />
+
+                <RadioButton
+                    android:id="@+id/Q9c"
+                    style="@style/QuestionTheme1"
+                    android:text="Three (3) " />
+
+                <RadioButton
+                    android:id="@+id/Q9d"
+                    style="@style/QuestionTheme1"
+                    android:text="Four (4)" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a2ff37fc"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q10"
+                    style="@style/QuestionTheme2"
+                    android:layout_margin="8dp"
+                    android:text="11. Which angel told Daniel the meaning of his vision of the ram and the goat?" />
+
+                <RadioButton
+                    android:id="@+id/Q10a"
+                    style="@style/QuestionTheme2"
+                    android:text="Uriel" />
+
+                <RadioButton
+                    android:id="@+id/Q10b"
+                    style="@style/QuestionTheme2"
+                    android:text="Michael" />
+
+                <RadioButton
+                    android:id="@+id/Q10c"
+                    style="@style/QuestionTheme2"
+                    android:text="Raphael" />
+
+                <RadioButton
+                    android:id="@+id/Q10d"
+                    style="@style/QuestionTheme2"
+                    android:text="Gabriel" />
+            </RadioGroup>
+
+            <RadioGroup
+                style="@style/QuestionTheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFEFFFF"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q11"
+                    style="@style/QuestionTheme1"
+                    android:layout_margin="8dp"
+                    android:text="11. To what does the 'seventy weeks' prophecy refer?" />
+
+                <RadioButton
+                    android:id="@+id/Q11a"
+                    style="@style/QuestionTheme1"
+                    android:text="The coming of the Messiah " />
+
+                <RadioButton
+                    android:id="@+id/Q11b"
+                    style="@style/QuestionTheme1"
+                    android:text="The destruction of Babylon" />
+
+                <RadioButton
+                    android:id="@+id/Q11c"
+                    style="@style/QuestionTheme1"
+                    android:text="The fall of Jerusalem" />
+
+                <RadioButton
+                    android:id="@+id/Q11d"
+                    style="@style/QuestionTheme1"
+                    android:text="The Kingdom of God" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a2ff37fc"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q12"
+                    style="@style/QuestionTheme2"
+                    android:layout_margin="8dp"
+                    android:text="12. What did Daniel see by the river Hiddekel?" />
+
+                <RadioButton
+                    android:id="@+id/Q12a"
+                    style="@style/QuestionTheme2"
+                    android:text="A great and terrible beast" />
+
+                <RadioButton
+                    android:id="@+id/Q12b"
+                    style="@style/QuestionTheme2"
+                    android:text="A flaming chariot" />
+
+                <RadioButton
+                    android:id="@+id/Q12c"
+                    style="@style/QuestionTheme2"
+                    android:text="A man clothed in linen " />
+
+                <RadioButton
+                    android:id="@+id/Q12d"
+                    style="@style/QuestionTheme2"
+                    android:text="A spinning wheel" />
+            </RadioGroup>
+
+            <RadioGroup
+                style="@style/QuestionTheme1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFEFFFF"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q13"
+                    style="@style/QuestionTheme1"
+                    android:layout_margin="8dp"
+                    android:text="13. How did Daniel react to the vision by the river Hiddekel?" />
+
+                <RadioButton
+                    android:id="@+id/Q13a"
+                    style="@style/QuestionTheme1"
+                    android:text="He felt ill and weak " />
+
+                <RadioButton
+                    android:id="@+id/Q13b"
+                    style="@style/QuestionTheme1"
+                    android:text="He trembled with fear" />
+
+                <RadioButton
+                    android:id="@+id/Q13c"
+                    style="@style/QuestionTheme1"
+                    android:text="He sang a song" />
+
+                <RadioButton
+                    android:id="@+id/Q13d"
+                    style="@style/QuestionTheme1"
+                    android:text="He praised God" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a2ff37fc"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/Q14"
+                    style="@style/QuestionTheme2"
+                    android:layout_margin="8dp"
+                    android:text="14. What did Daniel's final vision describe?" />
+
+                <RadioButton
+                    android:id="@+id/Q14a"
+                    style="@style/QuestionTheme2"
+                    android:text="The destruction of Persia and Media" />
+
+                <RadioButton
+                    android:id="@+id/Q14b"
+                    style="@style/QuestionTheme2"
+                    android:text="The life of the Son of God " />
+
+                <RadioButton
+                    android:id="@+id/Q14c"
+                    style="@style/QuestionTheme2"
+                    android:text="What shall befall his people in the latter days" />
+
+                <RadioButton
+                    android:id="@+id/Q14d"
+                    style="@style/QuestionTheme2"
+                    android:text="How his life would be ended by his enemies" />
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:id="@+id/Q15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a2ff37fc"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    style="@style/QuestionTheme2"
+                    android:text="15. Who was the fourth person in the fiery furnace?" />
+
+                <EditText
+                    android:id="@+id/answer15"
+                    style="@style/AnswerTextTheme"
+                    android:hint="Answer"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Q16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFEFFFF"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    style="@style/QuestionTheme1"
+                    android:text="16. Which king had a feast using the gold and silver vessels from the temple in Jerusalem?" />
+
+                <EditText
+                    android:id="@+id/answer16"
+                    style="@style/AnswerTextTheme"
+                    android:layout_width="452dp"
+                    android:hint="Answer"
+                    android:textColor="#a2ff37fc"
+                    android:textColorHint="#a2ff37fc" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Q17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a2ff37fc"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    style="@style/QuestionTheme2"
+                    android:text="17. Who was thrown into the den of lions?" />
+
+                <EditText
+                    android:id="@+id/answer17"
+                    style="@style/AnswerTextTheme"
+                    android:hint="Answer"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFEFFFF"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    style="@style/QuestionTheme1"
+                    android:text="18. _________ are Daniel's friends?" />
+
+                <CheckBox
+                    android:id="@+id/Q18a"
+                    style="@style/CheckBoxTheme2"
+                    android:text="Shadrach" />
+
+                <CheckBox
+                    android:id="@+id/Q18b"
+                    style="@style/CheckBoxTheme2"
+                    android:text="Belteshazzar" />
+
+                <CheckBox
+                    android:id="@+id/Q18c"
+                    style="@style/CheckBoxTheme2"
+                    android:text="Meshach " />
+
+                <CheckBox
+                    android:id="@+id/Q18d"
+                    style="@style/CheckBoxTheme2"
+                    android:text="Abednego" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#a2ff37fc"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    style="@style/QuestionTheme2"
+                    android:text="19. What did Daniel and his three friends eat instead of the king's meat and drink?" />
+
+                <CheckBox
+                    android:id="@+id/Q19a"
+                    style="@style/CheckBoxTheme"
+                    android:text="Bread" />
+
+                <CheckBox
+                    android:id="@+id/Q19b"
+                    style="@style/CheckBoxTheme"
+                    android:text="Fish" />
+
+                <CheckBox
+                    android:id="@+id/Q19c"
+                    style="@style/CheckBoxTheme"
+                    android:text="Water" />
+
+                <CheckBox
+                    android:id="@+id/Q19d"
+                    style="@style/CheckBoxTheme"
+                    android:text="Pulses" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFEFFFF"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    style="@style/QuestionTheme1"
+                    android:text="20. What are the beasts that Daniel saw in a vision?" />
+
+                <CheckBox
+                    android:id="@+id/Q20a"
+                    style="@style/CheckBoxTheme2"
+                    android:text="Wolf" />
+
+                <CheckBox
+                    android:id="@+id/Q20b"
+                    style="@style/CheckBoxTheme2"
+                    android:text="Lion" />
+
+                <CheckBox
+                    android:id="@+id/Q20c"
+                    style="@style/CheckBoxTheme2"
+                    android:text="Bear" />
+
+                <CheckBox
+                    android:id="@+id/Q20d"
+                    style="@style/CheckBoxTheme2"
+                    android:text="Dragon" />
+
+                <CheckBox
+                    android:id="@+id/Q20e"
+                    style="@style/CheckBoxTheme2"
+                    android:text="Leopard" />
+
+                <CheckBox
+                    android:id="@+id/Q20f"
+                    style="@style/CheckBoxTheme2"
+                    android:text="Terrible Beast" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#a2ff37fc"
+            android:layout_margin="8dp"
+            android:layout_marginTop="16dp"
+            android:onClick="submitQuiz"
+            android:padding="20dp"
+            android:text="submit quiz"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
